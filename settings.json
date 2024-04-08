@@ -1,0 +1,306 @@
+{
+    /* ############################# */
+    /* ########## GENERAL ########## */
+    /* ############################# */
+    "editor.accessibilitySupport": "off",
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.lineNumbers": "relative",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "editor.fontLigatures": true,
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": false,
+    "zenMode.hideLineNumbers": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.fontSize": 15,
+    "editor.cursorSurroundingLines": 10,
+    "editor.scrollbar.horizontalScrollbarSize": 0,
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "window.title": " ",
+    /* ######################### */
+    /* ########## VIM ########## */
+    /* ######################### */
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "d",
+                "w"
+            ],
+            "after": [
+                "<C-w>"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "D"
+            ],
+            "after": [
+                "V",
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "d",
+                "w"
+            ],
+            "after": [
+                "v",
+                "e",
+                "\"",
+                "_",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "d",
+                "f"
+            ],
+            "after": [
+                "V",
+                "$",
+                "%"
+            ]
+        },
+        {
+            "before": [
+                "<TAB>"
+            ],
+            "after": [
+                ":",
+                "t",
+                "a",
+                "b",
+                "n",
+                "<CR>"
+            ]
+        },
+        {
+            "before": [
+                "s",
+                "r"
+            ],
+            "after": [
+                ":",
+                "v",
+                "s",
+                "<CR>",
+                "<C-w>",
+                "h",
+                ":",
+                "b",
+                "d",
+                "<CR>",
+            ]
+        },
+        {
+            "before": [
+                "s",
+                "b"
+            ],
+            "after": [
+                ":",
+                "s",
+                "p",
+                "l",
+                "i",
+                "t",
+                "<CR>",
+                "<C-w>",
+                "k",
+                ":",
+                "b",
+                "d",
+                "<CR>",
+            ]
+        },
+        {
+            "before": [
+                "E"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "B"
+            ],
+            "after": [
+                "0"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "<C-w>",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "<C-w>",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "after": [
+                "<C-w>",
+                "h"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<C-w>",
+                "l"
+            ]
+        },
+        {
+            "before": [
+                "x",
+            ],
+            "after": [
+                "\"",
+                "_",
+                "x"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "E"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "B"
+            ],
+            "after": [
+                "0"
+            ]
+        },
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "D"
+            ],
+            "after": [
+                "\"",
+                "_",
+                "d"
+            ]
+        }
+    ],
+    // To improve performance
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    /* ################################ */
+    /* ########## FORMATTING ########## */
+    /* ################################ */
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+}
